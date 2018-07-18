@@ -1,0 +1,14 @@
+A tower defense game that must: 
+
+    1.load towers definition  from file
+    2.load maps and enemies from file 
+    3.implement simple interaction tower vs. enemy
+    4.implement at least two move strategies
+    5.provide saving and loading running game from/to file
+
+Polymorphism is used in game objects i.e. a class Wall inherits from GameObjects.
+Futhermore, attackers path is shortest possible to the destination(exit) and the algorithm to find this shortest path is BFS. 
+
+This is a terminal game and is played in the terminal. Terminal is where the user types in commands according to text displayed and plays the game. Currently there is only one attacking which gets a health boost at the end of every round in order to increase difficulty. It is possible to add more attackers however for demonstration purposes this was not done. On the other hand, you are able to add several towers during the game and each tower interacts, and deals its own damage to the incoming atttacker(if the tower is in range that is). 
+
+
